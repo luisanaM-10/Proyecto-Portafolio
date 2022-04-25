@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    /*HEADER*/
+header{
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 0px 20px 0px rgba(32, 32, 32, 0.237);
+}
+
+.container{
+    width: 100%;
+    max-width: 1100px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    padding: 10px 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 0 10px;
+    padding: 10px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.contacto{
+    background-color:rgb(85, 197, 197);
+    border-radius: 1.5em;
+}
+
+#contacto{
+    color: white;
+}
+
+
+/*SECTION Nº1 SOBRE MI*/
+.section1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.contenedor-section1{
+    width: 100%;
+
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sobremi{
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    display: block;
+}
+
+#hola{
+    font-weight: 900;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+h1{
+    font-size: 50px;
+    margin: 5px 0;
+}
+
+#tex{
+    color: rgb(94, 94, 94);
+    margin: 10px 0;
+}
+
+.hago{
+    background-color:rgb(85, 197, 197) ;
+    margin: 20px 0;
+    padding: 5px;
+    text-align: center;
+    border-radius: 2em;
+    width: 8em;
+}
+
+#hago{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+/*section 2 de conocimientos*/
+.section2{
+    background-color: rgb(221, 233, 239);
+}
+
+.contenedor-section2{
+
+    display: block;
+    justify-content: center;
+}
+
+.texto{
+    text-align: center;
+    margin: 20px;
+    padding: 20px 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
