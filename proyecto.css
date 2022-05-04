@@ -43,20 +43,50 @@ li{
     padding: 10px 15px;
 }
 
+li:active{
+    border: 1px solid rgb(85, 197, 197);
+    border-radius: 1.5em;
+    box-shadow: 1.5px 1.5px 2px 3px  rgb(220, 242, 242);
+}
+
 a{
     text-decoration: none;
     color: black;
     font-size: 18px;  
 }
 
-.contacto{
+a:hover{
+    color:rgb(85, 197, 197) ;
+}
+
+.li-contacto{
     background-color:rgb(85, 197, 197);
     border-radius: 1.5em;
 }
 
-#contacto{
+.li-contacto:hover{
+    background-color:rgb(136, 219, 219) ;
+}
+
+.li-contacto:active{
+    background-color:rgb(85, 197, 197) ;
+    box-shadow: 1.5px 1.5px 2px 3px  rgb(222, 244, 244);
+}
+
+.contacto{
     color: white;
 }
+
+.contacto:hover{
+    color: white;
+}
+
+@media(max-width: 900px){
+    header{
+        display: none;
+    }
+}
+
 
 
 /*************************************
@@ -67,6 +97,7 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 5em;
+    padding: 50px 0;
     min-height: calc(100vh - 90px);
 }
 
@@ -78,7 +109,7 @@ a{
     justify-content: space-around;
 }
 
-#sobremi{
+.sobremi{
     margin: 0;
     padding: 10px;
     text-align: left;
@@ -101,13 +132,21 @@ h1{
     margin: 10px 0;
 }
 
-.hago{
+.cuadro-hago{
     background-color:rgb(85, 197, 197) ;
     margin: 20px 0;
     padding: 5px;
     text-align: center;
     border-radius: 2em;
     width: 8em;
+}
+
+.cuadro-hago:hover{
+    background-color: rgb(70, 170, 180);
+}
+
+.cuadro-hago:active{
+    box-shadow: 1px 2px 2px 1.5px  rgb(160, 220, 225);
 }
 
 #hago{
@@ -117,6 +156,26 @@ h1{
     padding: 0;
 }
 
+@media(max-width: 900px){
+    .section1{
+        padding: 30px 0;
+    }
+    .contenedor-section1{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .sobremi{
+        text-align: center;
+    }
+    img{
+        max-width: 500px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    
+}
 
 
 /***********************************
@@ -245,8 +304,41 @@ blockquote{
 /*******************************************
 *********** SECTION DE CONTACTO ************
 *******************************************/
+.section5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(232, 237, 239);
+    padding: 100px 0 ; 
+}
 
+.contenedor-section5{
+    width: 100%;
+    max-width: 1100px;
+    background-color: white;
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 10px;
+}
 
+.contenedor-contacto{
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto-seccion1{
+    background-color: blue;
+    width: 400px;
+}
+
+.contacto-seccion2{
+    background-color:brown ;
+
+}
+
+.referencias-sociales{
+    display: block;
+}
 
 
 
