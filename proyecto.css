@@ -129,34 +129,30 @@ h1{
 
 #tex{
     color: rgb(94, 94, 94);
-    margin: 10px 0;
+    margin: 10px 0 20px;
 }
 
-.cuadro-hago{
-    background-color:rgb(85, 197, 197) ;
-    margin: 20px 0;
-    padding: 5px;
-    text-align: center;
-    border-radius: 2em;
-    width: 8em;
-}
-
-.cuadro-hago:hover{
-    background-color: rgb(70, 170, 180);
-}
-
-.cuadro-hago:active{
-    box-shadow: 1px 2px 2px 1.5px  rgb(160, 220, 225);
-}
-
-#hago{
-    color: white;
+.hago{
     font-size: 14px;
-    margin: 0;
-    padding: 0;
+
+    padding: 10px 20px;
+    background-color: rgb(85, 197, 197);
+    color: white;
+    border-radius: 2em;
 }
 
-@media(max-width: 900px){
+.hago:hover{
+    background-color: rgb(94, 179, 190);
+    color: white;
+}
+
+.hago:active{
+    box-shadow: 1px 2px 2px 1.5px  rgb(191, 223, 226);
+}
+
+
+
+@media(max-width: 900px) and (min-width:600px){
     .section1{
         padding: 30px 0;
     }
@@ -170,11 +166,36 @@ h1{
     }
     img{
         max-width: 500px;
+        margin-top: 20px ;
     }
     h1{
-        font-size: 40px;
+        font-size: 45px;
     }
-    
+
+}
+
+@media(max-width:599px){
+    .section1{
+        padding: 20px 0;
+    }
+    .contenedor-section1{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .sobremi{
+        text-align: center;
+    }
+    .hola{
+        font-size: 18px;
+    }
+    img{
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 35px;
+    }
 }
 
 
@@ -216,13 +237,19 @@ h2{
     justify-content: center;
 }
 
-.incono{
+.contenedor-de-incono{
     margin: 10px;
     width: 200px;
+    max-width: 200px;
     padding: 30px;
     border: 1px solid rgb(206, 203, 203);
     background-color: white;
     border-radius: 1em;
+}
+
+.contenedor-de-incono:hover{
+    border: 2px solid rgb(85, 197, 197);
+    color: rgb(85, 197, 197);
 }
 
 i{
@@ -232,6 +259,29 @@ i{
 h3{
     margin: 10px;
 }
+
+
+@media(max-width:900px) and (min-width:600px){
+    h2{
+        font-size:35px; 
+    }
+    .texto-conocimiento{
+        max-width: 250px;
+    }
+}
+
+@media(max-width:599px){
+    h2{
+        font-size: 30px;
+    }
+    .texto-conocimiento{
+        max-width: 200px;
+    }
+}
+
+
+
+
 
 /***************************************
 *********** SECCION DE CITA ************
@@ -262,6 +312,21 @@ h3{
 blockquote{
     padding: 3%  20%;
     font-size: 22px;
+}
+
+@media(max-width:900px){
+    blockquote{
+        font-size: 20px;   
+    }
+    .section3{
+        padding: 50px 0;
+    }
+    h2{
+        font-size:30px ;
+    }
+    .fa-solid{
+        font-size: 5em;
+    }
 }
 
 
@@ -297,8 +362,37 @@ blockquote{
     padding: 20px 10px;
 }
 
+.mis-proyectos:hover{
+    border: 2px solid rgb(85, 197, 197);
+    color: rgb(85, 197, 197);
+}
+
+.mis-proyectos:active{
+    box-shadow: 2px 2px 4px 2px;
+}
+
 .imagenes-proyectos{
     width: 250px;
+}
+
+@media(media-width:599px){
+    blockquote{
+        max-width: 250px;
+        font-size: 18px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:900) and (min-width:600px){
+    blockquote{
+        max-width: 300px;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 35px;
+    }
 }
 
 /*******************************************
