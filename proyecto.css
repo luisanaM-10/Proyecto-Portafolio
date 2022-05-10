@@ -9,6 +9,8 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
+
 /************************************
 *******HEADER:NAV DE NAVEGACION******
 ************************************/
@@ -49,14 +51,17 @@ li:active{
     box-shadow: 1.5px 1.5px 2px 3px  rgb(220, 242, 242);
 }
 
-a{
-    text-decoration: none;
+.item-nav{
     color: black;
-    font-size: 18px;  
 }
 
-a:hover{
-    color:rgb(85, 197, 197) ;
+.item-nav:hover{
+    color:rgb(136, 219, 219) ;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;  
 }
 
 .li-contacto{
@@ -65,7 +70,7 @@ a:hover{
 }
 
 .li-contacto:hover{
-    background-color:rgb(136, 219, 219) ;
+    background-color: rgb(136, 219, 219);
 }
 
 .li-contacto:active{
@@ -73,11 +78,7 @@ a:hover{
     box-shadow: 1.5px 1.5px 2px 3px  rgb(222, 244, 244);
 }
 
-.contacto{
-    color: white;
-}
-
-.contacto:hover{
+.item-contacto{
     color: white;
 }
 
@@ -134,22 +135,23 @@ h1{
 
 .hago{
     font-size: 14px;
-
     padding: 10px 20px;
     background-color: rgb(85, 197, 197);
-    color: white;
     border-radius: 2em;
+    color: white;
 }
 
 .hago:hover{
     background-color: rgb(94, 179, 190);
-    color: white;
 }
 
 .hago:active{
     box-shadow: 1px 2px 2px 1.5px  rgb(191, 223, 226);
 }
 
+.presentacion{
+    max-width: 600px;
+}
 
 
 @media(max-width: 900px) and (min-width:600px){
@@ -164,14 +166,13 @@ h1{
     .sobremi{
         text-align: center;
     }
-    img{
+    .presentacion{
         max-width: 500px;
         margin-top: 20px ;
     }
     h1{
         font-size: 45px;
     }
-
 }
 
 @media(max-width:599px){
@@ -189,8 +190,8 @@ h1{
     .hola{
         font-size: 18px;
     }
-    img{
-        max-width: 400px;
+    .presentacion{
+        max-width: 350px;
         margin-top: 20px;
     }
     h1{
@@ -280,9 +281,6 @@ h3{
 }
 
 
-
-
-
 /***************************************
 *********** SECCION DE CITA ************
 ***************************************/
@@ -359,26 +357,33 @@ blockquote{
     margin: 10px;
     border: 1px solid rgb(206, 203, 203);
     border-radius: 10px;
-    padding: 20px 10px;
+    padding: 20px 5px;
 }
 
 .mis-proyectos:hover{
     border: 2px solid rgb(85, 197, 197);
-    color: rgb(85, 197, 197);
 }
 
 .mis-proyectos:active{
     box-shadow: 2px 2px 4px 2px;
 }
 
-.imagenes-proyectos{
+.imagenes-proyecto{
     width: 250px;
 }
 
-@media(media-width:599px){
+.casilla-proyecto{
+    color: black;
+}
+
+.casilla-proyecto:hover{
+    color: rgb(85, 197, 197);
+}
+
+@media(max-width:599px){
     blockquote{
         max-width: 250px;
-        font-size: 18px;
+        font-size: 17px;
     }
     h2{
         font-size: 30px;
@@ -387,7 +392,7 @@ blockquote{
 
 @media(max-width:900) and (min-width:600px){
     blockquote{
-        max-width: 300px;
+        max-width: 350px;
         font-size: 20px;
     }
     h2{
@@ -409,30 +414,227 @@ blockquote{
 .contenedor-section5{
     width: 100%;
     max-width: 1100px;
-    background-color: white;
+    background-color:white;
     border: 1px solid rgb(206, 203, 203);
     border-radius: 10px;
 }
 
 .contenedor-contacto{
-    padding: 50px 30px;
+    padding: 40px 0;
     display: flex;
     justify-content: space-around;
 }
 
 .contacto-seccion1{
-    background-color: blue;
-    width: 400px;
+    max-width: 400px;
+    padding: 0 15px;
 }
 
-.contacto-seccion2{
-    background-color:brown ;
-
+.texto-contactos{
+    margin-top: 15px;
 }
 
 .referencias-sociales{
     display: block;
 }
+
+.item-red{
+    color: black;
+}
+
+.item-red:hover{
+    color: rgb(85, 197, 197);
+}
+
+#incono-contacto{
+    color: rgb(85, 197, 197);
+}
+
+#incono-contacto:hover{
+    background-color: rgb(85, 197, 197);
+    color: white;
+    border-radius: 50%;
+}
+
+.contacto-seccion2{
+    display: block;
+    padding: 0 15px;
+}
+
+.nombre-apellido{
+    display: flex;
+    margin-top: 15px;
+}
+
+input{
+    background-color: rgb(235, 239, 239);
+    margin: 5px; 
+    border-radius: 1em;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 5px;
+    display: block;
+}
+
+.datos-enviar{
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje{
+    height: 100px;
+}
+
+.boton-de-enviar{
+    background-color: rgb(85, 197, 197);
+    border-radius: 1em;
+    padding: 10px;
+    text-align: center;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.boton-de-enviar:hover{
+    background-color: rgb(136, 219, 219);
+}
+
+.boton-de-enviar:active{
+    box-shadow: 1px 1px 2px 2px rgb(194, 193, 193);
+}
+
+.enviar{
+    color: white;
+    font-size: 14px;
+}
+
+.enviar:hover{
+    color: white;
+}
+
+@media (max-width:800px) {
+    .contenedor-contacto{
+        display: block;
+    }
+    .section5{
+        background-color: white;
+    }
+    .contenedor-section5{
+        border: none;
+    }
+}
+
+@media(max-width:400px){
+    .nombre-apellido{
+        display: block;
+    }
+    .section5{
+        padding: 20px 0;
+    }
+    .contacto-seccion1{
+        padding: 0;
+    }
+    .contacto-seccion2{
+        padding: 0;
+    }
+}
+
+/****************************************
+********** SECCIÓN DE FOOTER ************
+****************************************/
+
+footer{
+    background-color: rgb(85, 197, 197);
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.nav-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navegador-footer{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-footer-li{
+    margin: 0 10px;
+    padding:0;
+}
+
+.nav-footer-li:active{
+    border-radius: 0;
+    box-shadow: 0px 0px 2px 2px;
+}
+
+.item-footer{
+    color: white;
+    font-size: 15px;
+}
+
+.contenedor-red{
+    width: 100%;
+    max-width: 1100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px 0;
+}
+
+.red{
+    border-radius: 50%;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(85, 197, 197);
+}
+
+.red:hover{
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(85, 197, 197);
+}
+
+.red:active{
+    box-shadow: 0.5px 0px 2px 1px white;
+}
+
+.fa-envelope{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fa-brands{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fa-heart{
+    font-size: 13px;
+    color: red;
+}
+
+@media(max-width:600px){
+    .nav-footer{
+        display: none;
+    }
+}
+
+
+
 
 
 

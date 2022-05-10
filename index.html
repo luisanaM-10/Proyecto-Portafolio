@@ -26,12 +26,10 @@
       <div class="container">
         <nav>
           <ul>
-            <li> <a href="#conoceme">HOLA</a> </li>
-            <li> <a href="#conocimientos">CONOCIMIENTOS</a> </li>
-            <li> <a href="#proyectos">PROYECTOS</a> </li>
-            <li class="li-contacto">
-              <a class="contacto" href="#contactos">CONTACTOS</a>
-            </li>
+            <li> <a class="item-nav" href="#conoceme">HOLA</a> </li>
+            <li> <a class="item-nav" href="#conocimientos">CONOCIMIENTOS</a> </li>
+            <li> <a class="item-nav" href="#proyectos">PROYECTOS</a> </li>
+            <li class="li-contacto"><a class="item-contacto" href="#contactos">CONTACTOS</a></li>
           </ul>
         </nav>
       </div>
@@ -48,9 +46,9 @@
           <p id="tex">
             Desarrolladora, amante a la musica y fan de la contabilidad
           </p>
-          <div class="cuadro-hago"><a class="hago" href="#proyectos">LO QUE HAGO</a></div>
+          <div><a class="hago" href="#proyectos">LO QUE HAGO</a></div>
         </div>
-        <img src="imagenes/music.png" />
+        <img class="presentacion" src="imagenes/music.png" />
       </div>
     </section>
 
@@ -136,50 +134,50 @@
 
         <div class="contenedor-de-proyectos">
           <div class="mis-proyectos">
-            <a href="index.html">
-              <img class="imagenes-proyectos" src="imagenes/portafolio.png" />
+            <a class="casilla-proyecto" href="index.html">
+              <img class="imagenes-proyecto" src="imagenes/portafolio.png" />
               <p>PORTAFOLIO</p>
             </a>
           </div>
 
           <div class="mis-proyectos">
-            <a href="index.html">
-              <img class="imagenes-proyectos" src="imagenes/memes.png" />
+            <a class="casilla-proyecto" href="index.html">
+              <img class="imagenes-proyecto" src="imagenes/memes.png" />
               <p>GENERADOR DE MEMES</p>
             </a>
           </div>
 
           <div class="mis-proyectos">
-            <a href="index.html">
-              <img class="imagenes-proyectos" src="imagenes/match.png" />
+            <a class="casilla-proyecto" href="index.html">
+              <img class="imagenes-proyecto" src="imagenes/match.png" />
               <p>MATCH 3</p>
             </a>
           </div>
 
           <div class="mis-proyectos">
-            <a href="index.html">
-              <img class="imagenes-proyectos" src="imagenes/gastos.png" />
+            <a class="casilla-proyecto"  href="index.html">
+              <img class="imagenes-proyecto" src="imagenes/gastos.png" />
               <p>CONTROLADOR DE GASTOS</p>
             </a>
           </div>
 
           <div class="mis-proyectos">
-            <a href="index.html">
-              <img class="imagenes-proyectos" src="imagenes/actividades.png" />
+            <a class="casilla-proyecto" href="index.html">
+              <img class="imagenes-proyecto" src="imagenes/actividades.png" />
               <p>ADMINISTRADOR DE REUNIONES</p>
             </a>
           </div>
 
           <div class="mis-proyectos">
-            <a href="index.html">
-              <img class="imagenes-proyectos" src="imagenes/app.png" />
+            <a class="casilla-proyecto" href="index.html">
+              <img class="imagenes-proyecto" src="imagenes/app.png" />
               <p>TODO APP</p>
             </a>
           </div>
 
           <div class="mis-proyectos">
-            <a href="index.html">
-              <img class="imagenes-proyectos" src="imagenes/pelicula.png" />
+            <a class="casilla-proyecto" href="index.html">
+              <img class="imagenes-proyecto" src="imagenes/pelicula.png" />
               <p>BUSCADOR DE PELICULAS</p>
             </a>
           </div>
@@ -195,29 +193,70 @@
         <div class="contenedor-contacto">
           <section class="contacto-seccion1">
             <h2>Contactame</h2>
-            <p>
+            <p class="texto-contactos">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Dignissimos est et veniam, accusamus cumque cum perspiciatis
               distinctio debitis voluptate nisi, hic dolor in neque dicta
               sapiente ea adipisci omnis ut.
             </p>
             <ul class="referencias-sociales">
-              <li><a href="">twiter</a></li>
-              <li><a href="">Likein</a></li>
-              <li><a href="">Instagram</a></li>
-              <li><a href="">Gmail</a></li>
+              <li><a class="item-red" href="https://www.instagram.com/luisana_rusher/?hl=es"><i id="incono-contacto" class="fa-brands fa-instagram"></i> luisana_rusher</a></li>
+              <li><a class="item-red" href=""><i id="incono-contacto" class="fa-brands fa-linkedin-in"></i> Likein</a></li>
+              <li><a class="item-red" href="https://github.com/luisanaM-10"><i id="incono-contacto" class="fa-brands fa-github-alt"></i> luisanaM-10</a></li>
+              <li><a class="item-red" href=""><i id="incono-contacto" class="fa-solid fa-envelope"></i> Gmail</a></li>
             </ul>
           </section>
 
           <section class="contacto-seccion2">
             <h2>Escribime</h2>
+            <div class="nombre-apellido">
+              <div>
+                <label for="nombre">Nombre</label>
+                <input placeholder="p.ej: andrea" type="nombre">
+              </div>
+              <div>
+                <label for="apellido">Apellido</label>
+                <input placeholder="p.ej: rodriguez" type="apellido">
+              </div>
+            </div>
 
+            <div class="datos-enviar">
+              <label for="email">Email</label>
+              <input placeholder="p.ej: rodri@gmail.com" type="email">
 
+              <label for="mensaje">Mensaje</label>
+              <input placeholder="escriba un mensaje aquí" class="mensaje" type="mensaje">
 
+              <div class="boton-de-enviar">
+                <a class="enviar" href="email.com">ENVIAR</a>
+              </div>
+            </div>
           </section>
-
         </div>
       </div>
     </section>
+
+  <!--*************************************
+  *********** sección de footer************
+  **************************************-->
+
+  <footer>
+      <nav class="nav-footer">
+        <ul class="navegador-footer">
+          <li class="nav-footer-li"> <a class="item-footer" href="#conoceme">HOLA</a> </li>
+          <li class="nav-footer-li"> <a class="item-footer" href="#conocimientos">CONOCIMIENTOS</a> </li>
+          <li class="nav-footer-li"> <a class="item-footer" href="#proyectos">PROYECTOS</a> </li>
+          <li class="nav-footer-li"> <a class="item-footer" href="#contactos">CONTACTOS</a></li>
+        </ul>
+      </nav>
+
+      <div class="contenedor-red">
+        <div><a class="red" href="https://www.instagram.com/luisana_rusher/?hl=es"> <i class="fa-brands fa-instagram"></i> </a></div>
+        <div><a class="red" href="https://github.com/luisanaM-10"> <i class="fa-brands fa-github-alt"></i> </a></div>
+        <div><a class="red" href=""> <i class="fa-brands fa-linkedin-in"></i> </a></div>
+        <div><a class="red" href=""> <i class="fa-solid fa-envelope"></i> </a></div>
+      </div>
+      <p>Hecho con <i class="fa-solid fa-heart"></i> por Muñoz</p>
+  </footer>
   </body>
 </html>
