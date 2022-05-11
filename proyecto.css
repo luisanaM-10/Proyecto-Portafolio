@@ -308,6 +308,7 @@ h3{
 }
 
 blockquote{
+    text-align: center;
     padding: 3%  20%;
     font-size: 22px;
 }
@@ -333,7 +334,7 @@ blockquote{
 *****************************************/
 .section4{
     width: 100%;
-    padding: 100px 0;
+    padding: 80px 0;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -342,6 +343,7 @@ blockquote{
 .contenedor-section4{
     width: 100%;
     max-width: 1100px;
+    padding: 50px;
 }
 
 .contenedor-de-proyectos{
@@ -380,13 +382,20 @@ blockquote{
     color: rgb(85, 197, 197);
 }
 
+.actividades{
+    font-size: 17px;
+}
+
 @media(max-width:599px){
     blockquote{
-        max-width: 250px;
-        font-size: 17px;
+        max-width: 280px;
+        font-size: 18px;
     }
     h2{
         font-size: 30px;
+    }
+    .section4{
+        padding: 50px 0;
     }
 }
 
@@ -414,15 +423,17 @@ blockquote{
 .contenedor-section5{
     width: 100%;
     max-width: 1100px;
-    background-color:white;
-    border: 1px solid rgb(206, 203, 203);
-    border-radius: 10px;
+    padding: 20px;
 }
 
 .contenedor-contacto{
     padding: 40px 0;
     display: flex;
     justify-content: space-around;
+    background-color: white;
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .contacto-seccion1{
@@ -517,8 +528,12 @@ input{
     .section5{
         background-color: white;
     }
-    .contenedor-section5{
+    .contenedor-contacto{
         border: none;
+        padding: 0;
+    }
+    .contacto-seccion1 , .contacto-seccion2{
+        padding: 0;
     }
 }
 
@@ -526,15 +541,10 @@ input{
     .nombre-apellido{
         display: block;
     }
-    .section5{
-        padding: 20px 0;
-    }
-    .contacto-seccion1{
+    .contacto-seccion1 , .contacto-seccion2{
         padding: 0;
     }
-    .contacto-seccion2{
-        padding: 0;
-    }
+    
 }
 
 /****************************************
