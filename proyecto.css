@@ -1,659 +1,665 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
-
 
 /************************************
 *******HEADER:NAV DE NAVEGACION******
 ************************************/
-header{
-    width: 100%;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0px 0px 20px 0px rgba(32, 32, 32, 0.237);
+header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 20px 0px rgba(32, 32, 32, 0.237);
 }
 
-.container{
-    width: 100%;
-    max-width: 1100px;
+.container {
+  width: 100%;
+  max-width: 1100px;
 }
 
-nav{
-    display: flex;
-    justify-content: flex-end;
+nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    padding: 1em 0;
+ul {
+  list-style: none;
+  display: flex;
+  padding: 1em 0;
 }
 
-li{
-    margin: 0 10px;
-    padding: 10px 15px;
+li {
+  margin: 0 10px;
+  padding: 10px 15px;
 }
 
-li:active{
-    border: 1px solid rgb(85, 197, 197);
-    border-radius: 1.5em;
-    box-shadow: 1.5px 1.5px 2px 3px  rgb(220, 242, 242);
+li:active {
+  border: 1px solid rgb(85, 197, 197);
+  border-radius: 1.5em;
+  box-shadow: 1.5px 1.5px 2px 3px rgb(220, 242, 242);
 }
 
-.item-nav{
-    color: black;
+.item-nav {
+  color: black;
 }
 
-.item-nav:hover{
-    color:rgb(136, 219, 219) ;
+.item-nav:hover {
+  color: rgb(136, 219, 219);
 }
 
-a{
-    text-decoration: none;
-    font-size: 18px;  
+a {
+  text-decoration: none;
+  font-size: 18px;
 }
 
-.li-contacto{
-    background-color:rgb(85, 197, 197);
-    border-radius: 1.5em;
+.li-contacto {
+  background-color: rgb(85, 197, 197);
+  border-radius: 1.5em;
 }
 
-.li-contacto:hover{
-    background-color: rgb(136, 219, 219);
+.li-contacto:hover {
+  background-color: rgb(136, 219, 219);
 }
 
-.li-contacto:active{
-    background-color:rgb(85, 197, 197) ;
-    box-shadow: 1.5px 1.5px 2px 3px  rgb(222, 244, 244);
+.li-contacto:active {
+  background-color: rgb(85, 197, 197);
+  box-shadow: 1.5px 1.5px 2px 3px rgb(222, 244, 244);
 }
 
-.item-contacto{
-    color: white;
+.item-contacto {
+  color: white;
 }
-
-@media(max-width: 900px){
-    header{
-        display: none;
-    }
-}
-
-
 
 /*************************************
 *********SECTION Nº1 SOBRE MI*********
 *************************************/
-.section1{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 5em;
-    padding: 50px 0;
-    min-height: calc(100vh - 90px);
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+  padding: 50px 0;
+  min-height: calc(100vh - 90px);
 }
 
-.contenedor-section1{
-    width: 100%;
-    max-width: 1100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.contenedor-section1 {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.sobremi{
-    margin: 0;
-    padding: 10px;
-    text-align: left;
-    display: block;
+.sobremi {
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  display: block;
 }
 
-#hola{
-    font-weight: 900;
-    font-size: 20px;
-    margin: 10px 0;
+#hola {
+  font-weight: 900;
+  font-size: 20px;
+  margin: 10px 0;
 }
 
-h1{
-    font-size: 50px;
-    margin: 5px 0;
+h1 {
+  font-size: 50px;
+  margin: 5px 0;
 }
 
-#tex{
-    color: rgb(94, 94, 94);
-    margin: 10px 0 20px;
+#tex {
+  color: rgb(94, 94, 94);
+  margin: 10px 0 20px;
 }
 
-.hago{
-    font-size: 14px;
-    padding: 10px 20px;
-    background-color: rgb(85, 197, 197);
-    border-radius: 2em;
-    color: white;
+.hago {
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: rgb(85, 197, 197);
+  border-radius: 2em;
+  color: white;
 }
 
-.hago:hover{
-    background-color: rgb(94, 179, 190);
+.hago:hover {
+  background-color: rgb(94, 179, 190);
 }
 
-.hago:active{
-    box-shadow: 1px 2px 2px 1.5px  rgb(191, 223, 226);
+.hago:active {
+  box-shadow: 1px 2px 2px 1.5px rgb(191, 223, 226);
 }
 
-.presentacion{
-    max-width: 600px;
+.presentacion {
+  max-width: 600px;
 }
 
-
-@media(max-width: 900px) and (min-width:600px){
-    .section1{
-        padding: 30px 0;
-    }
-    .contenedor-section1{
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-    }
-    .sobremi{
-        text-align: center;
-    }
-    .presentacion{
-        max-width: 500px;
-        margin-top: 20px ;
-    }
-    h1{
-        font-size: 45px;
-    }
+/***********************************************
+********** SECTION 2 DE CONOCIMIENTOS **********
+***********************************************/
+.section2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(232, 237, 239);
 }
 
-@media(max-width:599px){
-    .section1{
-        padding: 20px 0;
-    }
-    .contenedor-section1{
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-    }
-    .sobremi{
-        text-align: center;
-    }
-    .hola{
-        font-size: 18px;
-    }
-    .presentacion{
-        max-width: 350px;
-        margin-top: 20px;
-    }
-    h1{
-        font-size: 35px;
-    }
+.contenedor-section2 {
+  width: 100%;
+  max-width: 1100px;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-
-/***********************************
-**** SECTION 2 DE CONOCIMIENTOS ****
-************************************/
-.section2{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: rgb(232, 237, 239);
+h2 {
+  font-size: 40px;
 }
 
-.contenedor-section2{
-    width: 100%;
-    max-width: 1100px;
-    padding: 100px 50px ;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.texto-conocimiento {
+  margin: 1.5em;
+  font-size: 20px;
+  max-width: 350px;
 }
 
-h2{
-    font-size: 40px;
+.inconos {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.texto-conocimiento{
-    margin: 1.5em;
-    max-width: 350px;
+.contenedor-de-incono {
+  margin: 10px;
+  width: 200px;
+  max-width: 200px;
+  padding: 30px;
+  border: 1px solid rgb(206, 203, 203);
+  background-color: white;
+  border-radius: 1em;
 }
 
-
-.inconos{
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.contenedor-de-incono:hover {
+  border: 2px solid rgb(85, 197, 197);
+  color: rgb(85, 197, 197);
 }
 
-.contenedor-de-incono{
-    margin: 10px;
-    width: 200px;
-    max-width: 200px;
-    padding: 30px;
-    border: 1px solid rgb(206, 203, 203);
-    background-color: white;
-    border-radius: 1em;
+i {
+  font-size: 5em;
 }
 
-.contenedor-de-incono:hover{
-    border: 2px solid rgb(85, 197, 197);
-    color: rgb(85, 197, 197);
+h3 {
+  margin: 10px;
 }
-
-i{
-    font-size: 5em;
-}
-
-h3{
-    margin: 10px;
-}
-
-
-@media(max-width:900px) and (min-width:600px){
-    h2{
-        font-size:35px; 
-    }
-    .texto-conocimiento{
-        max-width: 250px;
-    }
-}
-
-@media(max-width:599px){
-    h2{
-        font-size: 30px;
-    }
-    .texto-conocimiento{
-        max-width: 200px;
-    }
-}
-
 
 /***************************************
 *********** SECCION DE CITA ************
 ***************************************/
-.section3{
-    width: 100%;
-    background-color:rgb(85, 197, 197) ;
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 100px 0;
+.section3 {
+  width: 100%;
+  background-color: rgb(85, 197, 197);
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 0;
 }
 
-.contenedor-section3{
-    width: 100%;
-    max-width: 1100px;
-    padding: 0 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.contenedor-section3 {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.fa-solid{
-    font-size: 6em;
+.fa-solid {
+  font-size: 6em;
 }
 
-blockquote{
-    text-align: center;
-    padding: 3%  20%;
-    font-size: 22px;
+blockquote {
+  text-align: center;
+  padding: 3% 20%;
+  font-size: 20px;
 }
-
-@media(max-width:900px){
-    blockquote{
-        font-size: 20px;   
-    }
-    .section3{
-        padding: 50px 0;
-    }
-    h2{
-        font-size:30px ;
-    }
-    .fa-solid{
-        font-size: 5em;
-    }
-}
-
 
 /*****************************************
 ******** SECTION DE MIS PROYECTOS ********
 *****************************************/
-.section4{
-    width: 100%;
-    padding: 80px 0;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+.section4 {
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
-.contenedor-section4{
-    width: 100%;
-    max-width: 1100px;
-    padding: 50px;
+.contenedor-section4 {
+  width: 100%;
+  max-width: 1100px;
+  padding: 50px;
 }
 
-.contenedor-de-proyectos{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
+.contenedor-de-proyectos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
-.mis-proyectos{
-    max-width: 300px;
-    text-align: center;
-    margin: 10px;
-    border: 1px solid rgb(206, 203, 203);
-    border-radius: 10px;
-    padding: 20px 5px;
+.mis-proyectos {
+  max-width: 300px;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid rgb(206, 203, 203);
+  border-radius: 10px;
+  padding: 20px 5px;
 }
 
-.mis-proyectos:hover{
-    border: 2px solid rgb(85, 197, 197);
+.mis-proyectos:hover {
+  border: 2px solid rgb(85, 197, 197);
 }
 
-.mis-proyectos:active{
-    box-shadow: 2px 2px 4px 2px;
+.mis-proyectos:active {
+  box-shadow: 2px 2px 4px 2px;
 }
 
-.imagenes-proyecto{
-    width: 250px;
+.imagenes-proyecto {
+  width: 250px;
 }
 
-.casilla-proyecto{
-    color: black;
+.casilla-proyecto {
+  color: black;
 }
 
-.casilla-proyecto:hover{
-    color: rgb(85, 197, 197);
+.casilla-proyecto:hover {
+  color: rgb(85, 197, 197);
 }
 
-.actividades{
-    font-size: 17px;
-}
-
-@media(max-width:599px){
-    blockquote{
-        max-width: 280px;
-        font-size: 18px;
-    }
-    h2{
-        font-size: 30px;
-    }
-    .section4{
-        padding: 50px 0;
-    }
-}
-
-@media(max-width:900) and (min-width:600px){
-    blockquote{
-        max-width: 350px;
-        font-size: 20px;
-    }
-    h2{
-        font-size: 35px;
-    }
+.actividades {
+  font-size: 17px;
 }
 
 /*******************************************
 *********** SECTION DE CONTACTO ************
 *******************************************/
-.section5{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(232, 237, 239);
-    padding: 100px 0 ; 
+.section5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(232, 237, 239);
+  padding: 100px 0;
 }
 
-.contenedor-section5{
-    width: 100%;
-    max-width: 1100px;
-    padding: 20px;
+.contenedor-section5 {
+  width: 100%;
+  max-width: 1100px;
+  padding: 20px;
 }
 
-.contenedor-contacto{
-    padding: 40px 0;
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    border: 1px solid rgb(206, 203, 203);
-    border-radius: 10px;
-    flex-wrap: wrap;
+.contenedor-contacto {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  border: 1px solid rgb(206, 203, 203);
+  border-radius: 10px;
+  flex-wrap: wrap;
 }
 
-.contacto-seccion1{
-    max-width: 400px;
-    padding: 0 15px;
+.contacto-seccion1 {
+  max-width: 400px;
+  padding: 0 15px;
 }
 
-.texto-contactos{
-    margin-top: 15px;
+.texto-contactos {
+  margin-top: 15px;
 }
 
-.referencias-sociales{
-    display: block;
+.referencias-sociales {
+  display: block;
 }
 
-.item-red{
-    color: black;
+.item-red {
+  color: black;
 }
 
-.item-red:hover{
-    color: rgb(85, 197, 197);
+.item-red:hover {
+  color: rgb(85, 197, 197);
 }
 
-#incono-contacto{
-    color: rgb(85, 197, 197);
+#incono-contacto {
+  color: rgb(85, 197, 197);
 }
 
-#incono-contacto:hover{
-    background-color: rgb(85, 197, 197);
-    color: white;
-    border-radius: 50%;
+#incono-contacto:hover {
+  background-color: rgb(85, 197, 197);
+  color: white;
+  border-radius: 50%;
 }
 
-.contacto-seccion2{
-    display: block;
-    padding: 0 15px;
+.contacto-seccion2 {
+  display: block;
+  padding: 0 15px;
 }
 
-.nombre-apellido{
-    display: flex;
-    margin-top: 15px;
+.nombre-apellido {
+  display: flex;
+  margin-top: 15px;
 }
 
-input{
-    background-color: rgb(235, 239, 239);
-    margin: 5px; 
-    border-radius: 1em;
-    border: 1px solid rgb(216, 216, 216);
-    padding: 5px;
-    display: block;
+input {
+  background-color: rgb(235, 239, 239);
+  margin: 5px;
+  border-radius: 1em;
+  border: 1px solid rgb(216, 216, 216);
+  padding: 5px;
+  display: block;
 }
 
-.datos-enviar{
-    display: flex;
-    flex-direction: column;
+.datos-enviar {
+  display: flex;
+  flex-direction: column;
 }
 
-.mensaje{
-    height: 100px;
+.mensaje {
+  height: 100px;
 }
 
-.boton-de-enviar{
-    background-color: rgb(85, 197, 197);
-    border-radius: 1em;
-    padding: 10px;
-    text-align: center;
-    width: 80px;
-    margin-top: 10px;
+.boton-de-enviar {
+  background-color: rgb(85, 197, 197);
+  border-radius: 1em;
+  padding: 10px;
+  text-align: center;
+  width: 80px;
+  margin-top: 10px;
 }
 
-.boton-de-enviar:hover{
-    background-color: rgb(136, 219, 219);
+.boton-de-enviar:hover {
+  background-color: rgb(136, 219, 219);
 }
 
-.boton-de-enviar:active{
-    box-shadow: 1px 1px 2px 2px rgb(194, 193, 193);
+.boton-de-enviar:active {
+  box-shadow: 1px 1px 2px 2px rgb(194, 193, 193);
 }
 
-.enviar{
-    color: white;
-    font-size: 14px;
+.enviar {
+  color: white;
+  font-size: 14px;
 }
 
-.enviar:hover{
-    color: white;
-}
-
-@media (max-width:800px) {
-    .contenedor-contacto{
-        display: block;
-    }
-    .section5{
-        background-color: white;
-    }
-    .contenedor-contacto{
-        border: none;
-        padding: 0;
-    }
-    .contacto-seccion1 , .contacto-seccion2{
-        padding: 0;
-    }
-}
-
-@media(max-width:400px){
-    .nombre-apellido{
-        display: block;
-    }
-    .contacto-seccion1 , .contacto-seccion2{
-        padding: 0;
-    }
-    
+.enviar:hover {
+  color: white;
 }
 
 /****************************************
 ********** SECCIÓN DE FOOTER ************
 ****************************************/
 
-footer{
-    background-color: rgb(85, 197, 197);
-    width: 100%;
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: center;
+footer {
+  background-color: rgb(85, 197, 197);
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.nav-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navegador-footer {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-footer-li {
+  margin: 0 10px;
+  padding: 0;
+}
+
+.nav-footer-li:active {
+  border-radius: 0;
+  box-shadow: 0px 0px 2px 2px;
+}
+
+.item-footer {
+  color: white;
+  font-size: 15px;
+}
+
+.contenedor-red {
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0;
+}
+
+.red {
+  border-radius: 50%;
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(85, 197, 197);
+}
+
+.red:hover {
+  color: white;
+  border: 2px solid white;
+  background-color: rgb(85, 197, 197);
+}
+
+.red:active {
+  box-shadow: 0.5px 0px 2px 1px white;
+}
+
+.fa-envelope {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.fa-brands {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.fa-heart {
+  font-size: 13px;
+  color: red;
+}
+
+/*************************************************
+**************** MEDIA DE 900 PX *****************
+*************************************************/
+@media (max-width: 900px) {
+  /***** HEADER *****/
+  header {
+    display: none;
+  }
+
+  /*** SECTION SOBRE MI ****/
+  .section1 {
+    padding: 30px 0;
+  }
+  .contenedor-section1 {
     flex-direction: column;
-    align-items: center;
-    padding: 80px 0;
-}
-
-.nav-footer{
-    width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.navegador-footer{
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-footer-li{
-    margin: 0 10px;
-    padding:0;
-}
-
-.nav-footer-li:active{
-    border-radius: 0;
-    box-shadow: 0px 0px 2px 2px;
-}
-
-.item-footer{
-    color: white;
-    font-size: 15px;
-}
-
-.contenedor-red{
-    width: 100%;
-    max-width: 1100px;
+  }
+  .sobremi {
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 20px 0;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .presentacion {
+    max-width: 500px;
+    margin-top: 20px;
+  }
+
+  /** SECTION DE CONOCIMIENTO **/
+  .texto-conocimiento {
+    max-width: 250px;
+  }
+
+  /**** SECTION DE CITA ****/
+  .section3 {
+    padding: 50px 0;
+  }
+  .fa-quote-right {
+    font-size: 5em;
+  }
+  h2 {
+    font-size: 35px;
+  }
 }
 
-.red{
-    border-radius: 50%;
-    margin: 5px;
-    height: 40px;
-    width: 40px;
+/**************************************************
+***************** MEDIA DE 800 PX *****************
+**************************************************/
+@media (max-width: 800px) {
+  /**** SECTION DE CONTACTO ****/
+  .section5 {
     background-color: white;
+  }
+  .contenedor-contacto {
+    display: block;
+    border: none;
+    padding: 0;
+  }
+  .contacto-seccion1,
+  .contacto-seccion2 {
+    padding: 0;
+  }
+}
+
+/*****************************************************
+***************** MEDIA DE 600 PX ********************
+*****************************************************/
+@media (max-width: 600px) {
+  /*** SECTION SOBRE MI ***/
+  .section1 {
+    padding: 20px 0;
+  }
+  .contenedor-section1 {
+    flex-direction: column;
     display: flex;
-    align-items: center;
     justify-content: center;
-    color: rgb(85, 197, 197);
+  }
+  .sobremi {
+    text-align: center;
+  }
+  .hola {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  #tex {
+    max-width: 250px;
+  }
+  .presentacion {
+    max-width: 350px;
+    margin-top: 20px;
+  }
+  /*** SECTION DE CONOCIMIENTO ***/
+  h2 {
+    font-size: 30px;
+  }
+  .texto-conocimiento {
+    max-width: 200px;
+  }
+  .contenedor-section2 {
+    padding: 80px 25px;
+  }
+  /**** SECTION DE PROYECTO ****/
+  .section4 {
+    padding: 50px 0;
+  }
+  .contenedor-section4 {
+    padding: 20px;
+  }
+  blockquote {
+    font-size: 18px;
+  }
+  /******** FOOTER ********/
+  .nav-footer {
+    display: none;
+  }
 }
 
-.red:hover{
-    color: white;
-    border: 2px solid white;
-    background-color: rgb(85, 197, 197);
+/**************************************************
+***************** MEDIA DE 400 PX *****************
+**************************************************/
+@media (max-width: 400px) {
+  .nombre-apellido {
+    display: block;
+  }
+  .contacto-seccion1, .contacto-seccion2 {
+    padding: 0;
+  }
 }
 
-.red:active{
-    box-shadow: 0.5px 0px 2px 1px white;
-}
+/*************************************************
+***************** MEDIA DE 280 PX **************** 
+*************************************************/
+@media (max-width: 280px){
+/** SECTION DE PRESENTACION **/
+  .presentacion {
+    max-width: 250px;
+  }
 
-.fa-envelope{
-    font-size: 20px;
+/** SECTION DE CONOCIMIENTO **/
+  .contenedor-section2 {
+    padding: 60px 0;
+  }
+  .inconos {
+    padding: 10px;
+  }
+
+/** SECTION DE PROYECTO **/
+  .contenedor-section4 {
+    padding: 10px;
+  }
+  .mis-proyectos {
+    max-width: 240px;
+  }
+  .imagenes-proyecto {
+    max-width: 220px;
+  }
+
+/** SECTION DE CONTACTO **/
+  .contenedor-section5{
+      padding: 0;
+  }
+  .contenedor-contacto{
     padding: 5px;
+  }
 }
-
-.fa-brands{
-    font-size: 20px;
-    padding: 5px;
-}
-
-.fa-heart{
-    font-size: 13px;
-    color: red;
-}
-
-@media(max-width:600px){
-    .nav-footer{
-        display: none;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
