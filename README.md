@@ -6,8 +6,8 @@ Proyecto del modulo nº 1 del curso Frontend, Ada.
 * CSS
 
 ### Contenido del proyecto:
-* tiene medidad resposive
-* Header con nav
+* tiene medidas resposive
+* Un header con nav
 * Section de presentación
 * Section de conocimientos
 * Section de cita
