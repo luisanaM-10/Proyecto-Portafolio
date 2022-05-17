@@ -625,6 +625,9 @@ footer {
   .contacto-seccion1, .contacto-seccion2 {
     padding: 0;
   }
+  .contenedor-section2{
+    overflow: hidden;
+  }
 }
 
 /*************************************************
